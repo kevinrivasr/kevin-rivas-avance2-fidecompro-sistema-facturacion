@@ -23,7 +23,7 @@ public class Main {
             sistema.gestorUsuarios.crearUsuario(
                     new Administrador("101110111", "Kevin", "Rivas", "kevin@fidecompro.com", "admin123"));
             sistema.gestorUsuarios.crearUsuario(
-                    new Cajero("202220222", "Maria", "Solano", "maria@fidecompro.com", "cajero123"));
+                    new Cajero("202220222", "Karla", "Mora", "karla@fidecompro.com", "cajero123"));
 
             Categoria electronica = sistema.gestorProductos.registrarCategoria("Electrónica", "Dispositivos electrónicos");
             Categoria oficina = sistema.gestorProductos.registrarCategoria("Oficina", "Artículos de oficina");
@@ -34,7 +34,7 @@ public class Main {
                     new Producto("Resma de papel", "Papel carta 500 hojas", 3200, 100, 20, oficina, "COD002"));
 
             sistema.gestorClientes.crearCliente(
-                    new Cliente("303330333", "Carlos", "Jiménez", "8888-8888", "carlos@correo.com", "San José"));
+                    new Cliente("303330333", "Eugenio", "Jimenez", "8888-8888", "eugeji@correo.com", "San José"));
         } catch (Exception ex) {
             System.out.println("Error al cargar datos iniciales: " + ex.getMessage());
         }
