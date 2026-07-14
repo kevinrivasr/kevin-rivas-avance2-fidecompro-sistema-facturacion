@@ -3,7 +3,6 @@ package kevinrivas_avance_2_fidecompro;
 /**
  *
  * @author Kevin Rivas
- * Enlace al github https://github.com/kevinrivasr/kevin-rivas-avance2-fidecompro-sistema-facturacion
  */
 import kevinrivas_avance_2_fidecompro.fidecompro.gestion.Sistema;
 import kevinrivas_avance_2_fidecompro.fidecompro.modelo.*;
